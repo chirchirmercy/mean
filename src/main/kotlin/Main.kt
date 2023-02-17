@@ -1,25 +1,35 @@
-fun main(){
-    greetperson("mercy")
-    var remainder=division(50,3)
-    addition(30,20,10,40)
-    interesting("swimming")
+fun main() {
+    val school = "akirachix"
+    println(school[1])
+    println(school[3])
+    println(school[4])
 
-}
-fun greetperson(name:String){
-    println("hello $ name")
-}
 
-fun division(num1:Int,num2:Int):Int{
-    var remainder=50%3
-    return remainder
-}
+    val name = "mercy"
+    val age = "16"
+    val sentence = " Hi,my name is $name  and i am $age years"
+    println(sentence)
 
-fun addition(num1:Int,num2:Int,num3:Int,num4:Int):{
-    var sum=num1+num2+num3+num4
-    println(sum)
-    return(sum)
-fun interesting(fact:String){
-    println("love $ fact")
 
+    val place="Nakuru"
+    println(place.length)
+
+    var line="Mercy"
+    var line2="Mercy"
+if(line.equals(line2)) {
+println("Thats me!")}
+    else{
+        println("I dont know wqho that is")
     }
+
 }
+
+
+
+
+
+
+
+
+
+
